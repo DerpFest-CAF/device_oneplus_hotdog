@@ -16,9 +16,9 @@ cc_library_shared {
         "-Werror",
     ],
     include_dirs: [
-        "hardware/qcom-caf/sm8150/display/include",
-        "hardware/qcom-caf/sm8150/display/sdm/include",
-        "hardware/qcom-caf/sm8150/display/libdebug",
+        "hardware/qcom/display/include",
+        "hardware/qcom/display/sdm/include",
+        "hardware/qcom/display/libdebug",
         "vendor/qcom/opensource/commonsys-intf/display/include",
     ],
     relative_install_path: "hw",
